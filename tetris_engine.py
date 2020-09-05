@@ -300,7 +300,7 @@ class GameState:
             self.lines += cleared
             self.total_lines += cleared
 
-            reward = self.height #- self.getHeight()
+            reward = self.height - self.getHeight()
             self.height = self.getHeight()
 
             self.level, self.fallFreq = self.calculateLevelAndFallFreq()
