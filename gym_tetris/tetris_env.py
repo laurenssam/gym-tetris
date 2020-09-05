@@ -16,6 +16,7 @@ class TetrisEnv(gym.Env):
         self.action_space = spaces.Discrete(len(self._action_set))
         self.observation_space = spaces.Box(low=0, high=255, shape=(SCREEN_HEIGHT, SCREEN_WIDTH, 3))
         self.viewer = None
+        self._seed = np.random.randint(0, 100)
 
 
     def _step(self, a):

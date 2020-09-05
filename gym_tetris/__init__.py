@@ -8,7 +8,6 @@ for game in ['Tetris']:
         id='{}-v0'.format(game),
         entry_point='gym_tetris:TetrisEnv',
         kwargs={},
-        timestep_limit=10000,
         nondeterministic=nondeterministic,
     )
 
