@@ -145,13 +145,15 @@ T_SHAPE_TEMPLATE = [['..O..',
                      '.....',
                      '.....']]
 
-PIECES = {'S': S_SHAPE_TEMPLATE,
-          'Z': Z_SHAPE_TEMPLATE,
-          'J': J_SHAPE_TEMPLATE,
-          'L': L_SHAPE_TEMPLATE,
-          'I': I_SHAPE_TEMPLATE,
-          'O': O_SHAPE_TEMPLATE,
-          'T': T_SHAPE_TEMPLATE}
+# PIECES = {'S': S_SHAPE_TEMPLATE,
+#           'Z': Z_SHAPE_TEMPLATE,
+#           'J': J_SHAPE_TEMPLATE,
+#           'L': L_SHAPE_TEMPLATE,
+#           'I': I_SHAPE_TEMPLATE,
+#           'O': O_SHAPE_TEMPLATE,
+#           'T': T_SHAPE_TEMPLATE}
+PIECES = {"I":I_SHAPE_TEMPLATE}
+
 
 
 class GameState:
